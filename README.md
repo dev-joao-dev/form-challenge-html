@@ -1,4 +1,4 @@
-# Formulário para Cdastro
+# Formulário para Cadastro
 
 <img src="./ASSETS/image form css.png" alt="form image">
 
