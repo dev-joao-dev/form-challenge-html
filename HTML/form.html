@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label for="nome">Nome</label>
+            <br>
+            <input type="text" name="nome" placeholder="Digite seu nome aqui" required id="nome">
+            <br> <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" placeholder="Digite seu Email aqui" required id="email">
+            <br> <br>
+            <label for="idade">Idade</label>
+            <br>
+            <input type="number" name="idade" id="idade" inputmode="numeric" placeholder="Digite sua Idade Aqui"
+                required min="12" step="1">
+            <br><br>
+            <label for="data-=de-nascimento">Data de Nascimento</label>
+            <br>
+            <input type="date" name="data-de-nascimento" id="data-=de-nascimento" max="2009-10-26" required>
+            <br> <br>
+            <label for="conta">Onde você possui Conta</label>
+            <br>
+            <input type="checkbox" id="conta" name="Instagram">Instagram<br>
+            <input type="checkbox" id="conta" name="Facebook">Facebook<br>
+            <input type="checkbox" id="conta" name="Youtube">Youtube<br>
+            <br> <br>
+            <label for="sexo">Sexo</label> <br>
+            <input type="radio" id="sexo" name="sexo" value="Masculino">Masculino
+            <input type="radio" id="sexo" name="sexo" value="Feminino" required>Feminino
+            <br><br>
+            <label for="cor-dos-olhos">Cor dos Olhos</label>
+            <br>
+            <input type="color" id="cor-dos-olhos" name="cor-dos-olhos" value="#8B008B" required>
+            <br><br>
+            <label for="biografia">Biografia</label>
+            <br> <br>
+            <textarea id="biografia" name="biografia" rows="5" minlength="5" cols="33"
+                placeholder="Digite sua História Aqui" required>
+            </textarea>
+            <br><br>
+            <label for="foto-de-perfil">Foto de Perfil</label>
+            <input type="file" id="foto-de-perfil" name="foto-de-perfil" accept="images/*" multiple required>
+            <br><br>
+            <label for="numero-telefone">Telefone</label> <br>
+            <input type="tel" id="numero-telefone" name="numero-telefone" maxlength="11" inputmode="numeric"
+                placeholder="(00) 0000-0000" required>
+            <br><br>
+            <label for="perfil-facebbok">Link Perfil do Facebook</label>
+            <br>
+            <input type="url" id="perfil-facebbok" name="perfil-facebbok" placeholder="Digite seu Facebook aqui"
+                required>
+            <br> <br>
+            <label for="senha">Senha</label>
+            <br>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua Senha Aqui" minlength="6"
+                maxlength="8" required>
+            <br><br>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

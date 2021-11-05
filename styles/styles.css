@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 7px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #7F00FF 0%, #E100FF 100%);
+}
+
+
+label {
+    display: block;
+    margin-left: 30px;
+    color: #892b64;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: default;
+}
+
+
+
+.big-box {
+    background-color: #fad2e1;
+    width: 50vw;
+    margin: 50px auto;
+    border: 3px solid black;
+    padding: 6px;
+}
+
+input {
+    border-radius: 10px;
+    border: 2px solid #5c4d7d;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 10px;
+    background-color: #ffadad;
+}
+
+textarea {
+    margin-left: 10px;
+    border: 3px solid #5c4d7d;
+    background-color: #ffadad;
+    cursor: pointer;
+    width: 12em;
+}
+
+.button-reset {
+    margin-left: 30px;
+    margin-bottom: 23px;
+    display: inline-block;
+    font-weight: 900;
+    color: #9e0059;
+    padding: 5px;
+    background-color: #ffadad;
+}
+
+.button-submit {
+    margin-left: 210px;
+    margin-bottom: 23px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 900;
+    color: #9e0059;
+    padding: 5px;
+    background-color: #ffadad;
+}
+
+#senha {
+    display: block;
+}
+
+#cor-dos-olhos {
+    margin-left: 20px;
+}
+
+#foto-de-perfil {
+    border: none;
+    cursor: pointer;
+    background-color: none;
+    font-weight: 900;
+    color: #9e0059;
+    width: 11em;
+}
+
+#label-nome {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button-submit:hover {
+    background-color:  #ff85a1;
+    transform: scale(1.3);
+    box-shadow: 0 5px 15px rgba (0,0,0,0.6);
+    color: #da1e37;
+}
+
+.button-reset:hover {
+    background-color:  #ff85a1;
+    transform: scale(1.3);
+    box-shadow: 0 5px 15px rgba (0,0,0,1);
+    color: #da1e37;
+}
+
+.button-reset:active {
+    background-color:  #da1e37;
+    transform: scale(1.0);
+    box-shadow: 0 5px 15px rgba (0,0,0,1);
+    color: #ff85a1;
+}
+
+.button-submit:active {
+    background-color:  #da1e37;
+    transform: scale(1.0);
+    box-shadow: 0 5px 15px rgba (0,0,0,0.6);
+    color: #ff85a1;
+}
+
+input:active {
+    color: #ffadad;
+}
+
+input:active {
+    color: black;
+    transform: scale(1.0);
+    box-shadow: 0 5px 15px rgba (0,0,0,0.6);
+    border-radius: 10px;
+    border: 2px solid #5c4d7d;
+}
+
+input:hover {
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba (0,0,0,0.6);
+    border-radius: 10px;
+    border: 2px solid #5c4d7d;
+}
+
+.check-box {
+    display: inline-block;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.check {
+    font-size: 15px;
+    display: inline-block;
+}
+
+h2 {
+    color: #892b64;
+    font-weight: 900;
+    font-size: 32px;
+    text-decoration: underline;
+    
+}
